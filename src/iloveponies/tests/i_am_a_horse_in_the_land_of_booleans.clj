@@ -42,7 +42,9 @@
 (facts "generic-doublificate" {:exercise 6
                                :points 1}
   (generic-doublificate 1)        => 2
+  (generic-doublificate 2)        => 4
   (generic-doublificate [1 2])    => 4
+  (generic-doublificate [1 2 3])  => 6
   (generic-doublificate '(65 21)) => 4
   (generic-doublificate {})       => nil
   (generic-doublificate [])       => nil
